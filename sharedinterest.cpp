@@ -43,9 +43,9 @@ int product(vector<int> from,vector<int> to,vector<int> w) {
 int main() {
 int nodes=4,edges=5;
 
-vector<int> from = {1, 1, 2, 2, 2};
-vector<int> to =    {2, 2, 3, 3, 4};
-vector<int> wt = {2, 3, 1, 3, 4 };
+vector<int> from =  {1, 1, 2, 2, 2};
+vector<int> to =   {2, 2, 3, 3, 4};
+vector<int> wt =  {1, 2, 1, 3, 3 };
 
 cout<<product(from,to,wt);
 }
